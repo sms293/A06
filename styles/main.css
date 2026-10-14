@@ -43,3 +43,9 @@ header {
 main {
     clear: left;
 }
+
+footer {
+    & p {
+        text-align: center;
+    }
+}
