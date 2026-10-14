@@ -21,3 +21,21 @@ h2 {
 h3 {
     font-size: 105%;
 }
+
+header {
+    & h2 {
+        font-size: 170%;
+        text-indent: 30px;
+    }
+
+    & h3 {
+        font-size: 130%;
+        text-indent: 30px;
+        font-style: italic;
+    }
+
+    & img {
+        float: left;
+
+    }
+}
