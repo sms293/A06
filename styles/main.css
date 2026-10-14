@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #800000;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -6,7 +10,7 @@ body {
 a:focus,
 a:hover {
     font-style: italic;
-    color: #800000;
+    color: var(--accent-color);
 }
 
 h1 {
@@ -15,7 +19,7 @@ h1 {
 
 h2 {
     font-size: 130%;
-    color: #800000;
+    color: var(--accent-color);
 }
 
 h3 {
