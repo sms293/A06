@@ -49,3 +49,7 @@ footer {
         text-align: center;
     }
 }
+
+.large {
+    font-size: 125%;
+}
